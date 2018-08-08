@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  
+  <div class="container-wrapper">
+  
+  <div class="controlpanel-container">
+  
+  <div class="controlpanel-header">
+    <div class="info-wrapper">
+      <div class="list-wrapper">
+        <p class="info-list">watched : </p>
+        <p class="status">connected</p>
+      </div>
+     
+      <div class="list-wrapper">
+        <p class="info-list">to watch : </p>
+        <p class="status">connected</p>
+      </div>
+    </div>
+    
+    <div class="progress-container">
+      <p class="progress-label">progress: </p>
+      <div class="progressbar-container">
+        <div class="progressbar"></div>
+      </div>
+    </div>
+    
+    <div class="settings">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+     width="20" height="20"
+     viewBox="0 0 252 252"
+     style="fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,252v-252h252v252z" fill="none"></path><g><g id="surface1"><path d="M134.40821,180.5918c0.51269,-2.0918 0.51269,-4.7168 0.51269,-7.3418c0,-2.625 0,-4.71679 -0.51269,-7.34179l14.68359,-10.5c1.5791,-1.06641 2.1123,-3.15821 1.06641,-4.73731l-14.19141,-24.13769c-1.0459,-1.57911 -2.625,-2.11231 -4.18359,-1.57911l-16.28321,7.875c-3.6709,-3.1582 -7.875,-5.25 -12.59179,-7.3623l-1.57911,-17.8418c0,-1.5791 -1.5791,-3.1582 -3.1582,-3.1582h-27.8291c-1.55859,0 -3.1377,1.5791 -3.1377,3.1582l-2.1123,18.375c-4.7168,1.5791 -8.3877,4.2041 -12.5918,7.3418l-16.2832,-7.3418c-1.55859,-0.5332 -3.6709,0 -4.18359,1.5791l-14.19141,24.1377c-1.0459,1.5791 -0.5127,3.69141 1.06641,4.7373l14.68359,10.5c-0.5127,2.0918 -0.5127,4.7168 -0.5127,7.3418c0,2.625 0,4.73731 0.5127,7.36231l-14.68359,10.5c-1.57911,1.04589 -2.11231,3.13769 -1.06641,4.71679l14.19141,24.15821c1.04589,1.55859 2.625,2.09179 4.18359,1.55859l16.2832,-7.3418c3.6709,3.15821 7.875,5.25 12.5918,7.3418l1.5791,17.8623c0,1.57911 1.5791,3.1377 3.1582,3.1377h27.82911c1.55859,0 3.13769,-1.55859 3.13769,-3.1377l1.5791,-17.8623c4.7168,-1.55859 8.40821,-4.18359 12.5918,-7.3418l16.2832,7.3418c1.5791,0.5332 3.6709,0 4.2041,-1.55859l14.1709,-24.15821c1.0459,-1.5791 0.53321,-3.6709 -1.0459,-4.71679zM84,199.5c-14.7041,0 -26.25,-11.5459 -26.25,-26.25c0,-14.7041 11.5459,-26.25 26.25,-26.25c14.7041,0 26.25,11.5459 26.25,26.25c0,14.7041 -11.5459,26.25 -26.25,26.25z" fill="#b84000"></path><path d="M219.9668,80.3291c0.5332,-2.625 0.5332,-4.7373 0.5332,-6.8291c0,-2.09179 0,-4.2041 -0.5332,-6.8291l13.125,-9.4541c1.5791,-1.0459 1.5791,-2.625 1.06641,-4.18359l-13.125,-22.57911c-1.06641,-1.5791 -2.625,-2.1123 -4.20411,-1.04589l-15.2373,6.80859c-3.6709,-2.625 -7.3418,-4.7168 -11.5459,-6.80859l-1.5791,-16.28321c0.5332,-1.5791 -0.5127,-2.625 -2.0918,-2.625h-25.71679c-1.57911,0 -3.15821,1.0459 -3.15821,2.625l-1.5791,16.28321c-4.2041,1.55859 -7.875,3.67089 -11.5459,6.80859l-15.21679,-6.80859c-1.57911,-0.53321 -3.15821,0 -4.20411,1.04589l-13.125,22.57911c-1.04589,1.55859 -0.5332,3.13769 1.0459,4.18359l13.125,9.4541c0,2.625 0,4.73731 0,6.8291c0,2.0918 0,4.2041 0.53321,6.8291l-13.125,9.45411c-1.57911,1.04589 -1.57911,2.625 -1.06641,4.18359l13.125,22.5791c1.06641,1.5791 2.625,2.11231 4.2041,1.0459l15.23731,-6.80859c3.67089,2.625 7.34179,4.71679 11.54589,6.80859l1.57911,16.2832c0,1.5791 1.55859,2.625 3.13769,2.625h25.73731c1.55859,0 3.13769,-1.0459 3.13769,-2.625l1.5791,-16.2832c4.2041,-1.55859 7.875,-3.6709 11.5459,-6.80859l15.23731,6.80859c1.55859,0.5332 3.13769,0 4.18359,-1.0459l13.125,-22.5791c1.06641,-1.55859 0.5332,-3.1377 -1.0459,-4.18359zM173.25,99.75c-14.7041,0 -26.25,-11.5459 -26.25,-26.25c0,-14.7041 11.5459,-26.25 26.25,-26.25c14.7041,0 26.25,11.5459 26.25,26.25c0,14.7041 -11.5459,26.25 -26.25,26.25z" fill="#d58905"></path></g></g></g></svg>
+    </div>
+  </div>
+    
+    <div class="credentials-section">
+  
+
+      <fieldset>
+        <input placeholder="apiKey" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="authDomain" type="text" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="databaseURL" type="text" tabindex="3" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="projectId" type="text" tabindex="4" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="storageBucket" type="text" tabindex="5" required>
+      </fieldset>
+          <fieldset>
+        <input placeholder="messagingSenderId" type="text" tabindex="6" required>
+      </fieldset>
+      <div class="submit-section">
+        <button class="submit container-btn" name="submit">SUBMIT</button>
+        <button class="submit container-btn" name="submit">up</button>
+      </div>
+
+
+    </div>
+    
+    <div class="courses-info">
+      
+      <div class="total-courses">
+        <p class="course-quantity">TOTAL COURSES : </p>
+        <p class="course-counter">1314</p>
+      </div>
+      <div class="watched-courses">
+        <p class="course-quantity">WATCHED COURSES :</p>
+        <p class="course-counter">10</p>
+      </div>
+      <div class="to-watch-courses">
+        <p class="course-quantity">TO WATCH :</p>
+        <p class="course-counter">200</p>
+      </div>
+      
+    </div>
+    
+    <div class="search-container">
+      
+      <p class="search-heading">search :</p>
+      <div class="input-container">
+        <div class="input-items-container">
+          <input type="text" class="search-input-field">
+          <button class="add-new-input container-btn">+</button>
+          <button class="remove-input container-btn">-</button>
+        </div>
+        
+        <div class="input-items-container">
+          <input type="text" class="search-input-field">
+          <button class="add-new-input container-btn">+</button>
+          <button class="remove-input container-btn">-</button>
+        </div>       
+        
+      </div>
+      
+    </div>
+    
+    <div class="container-footer">
+      <div class="container-buttons">
+        <button class="search container-btn">SEARCH</button>
+        <button class="reset-search container-btn">RESET</button>
+      </div>
+      <div class="info-found-courses">
+        <p class="heading-found-courses">Found courses :</p>
+        <p class="found-courses-counter">200</p>
+      </div>
+    </div>
+    
+  </div>
+    
+  </div>
+</body>
+</html>
